@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --Background-1: #F6F6F4;
+    --Gray-50: #272D2D;
+    --Text-Primary: #071015;
+}
+
+html {
+    background: var(--Background-1, #F6F6F4);
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin: auto;
+    max-width: 1440px;
+}
+
+.blackbutton {
+    background: var(--Gray-50, #272D2D);
+    border-radius: 16px;
+    color: white;
+    font-weight: 500;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.boldlink {
+    color: var(--Text-Primary, #071015);
+    font-weight: 700;
+    text-decoration: none;
+}
