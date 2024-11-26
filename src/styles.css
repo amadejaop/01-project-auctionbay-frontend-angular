@@ -2,18 +2,24 @@
 :root {
     --Background-1: #F6F6F4;
     --Gray-50: #272D2D;
+    --Primary-50: #F4FF47;
     --Text-Primary: #071015;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 html {
     background: var(--Background-1, #F6F6F4);
+    color: --Text-Primary, #071015;
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     margin: auto;
     max-width: 1440px;
 }
 
-.blackbutton {
+.blacklink {
     background: var(--Gray-50, #272D2D);
     border-radius: 16px;
     color: white;
@@ -26,4 +32,18 @@ html {
     color: var(--Text-Primary, #071015);
     font-weight: 700;
     text-decoration: none;
+}
+
+.yellowlink { 
+    background: var(--Primary-50, #F4FF47);
+    border-radius: 16px;
+    color: var(--Text-Primary, #071015);
+    font-weight: 500;
+    gap: 8px;
+    height: 40px;
+    line-height: 24px;
+    padding: 8px 16px 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 132px;
 }

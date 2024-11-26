@@ -1,0 +1,31 @@
+main {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.maintitle {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    margin: 0;
+    padding: 100px 0 0 0;
+}
+
+.maindescription {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 10px 0 30px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.landingimg {
+    border: 8px solid var(--Gray-50, #272D2D);
+    border-radius: 32px;
+    display: block;
+    margin:  auto;
+    margin-top: 90px;
+}
