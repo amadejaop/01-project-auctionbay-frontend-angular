@@ -3,6 +3,8 @@
     --Background-1: #F6F6F4;
     --Gray-50: #272D2D;
     --Primary-50: #F4FF47;
+    --Primary-60: #D0DB33;
+    --Primary-70: #ACB723;
     --Text-Primary: #071015;
 }
 
@@ -36,6 +38,10 @@ html {
     text-decoration: none;
 }
 
+.boldlink:hover {
+    text-decoration: underline;
+}
+
 .yellowlink { 
     background: var(--Primary-50, #F4FF47);
     border-radius: 16px;
@@ -48,4 +54,12 @@ html {
     text-align: center;
     text-decoration: none;
     width: 132px;
+}
+
+.yellowlink:hover {
+    background-color: var(--Primary-60, #D0DB33);
+}
+
+.yellowlink:active {
+    background-color: var(--Primary-70, #ACB723);
 }
