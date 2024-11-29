@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
     --Background-1: #F6F6F4;
+    --Gray-20: #DDE9E6;
     --Gray-50: #272D2D;
     --Primary-50: #F4FF47;
     --Primary-60: #D0DB33;
@@ -12,6 +13,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+button:hover {
+    cursor: pointer;   
 }
 
 html {

@@ -1,0 +1,84 @@
+button {
+    border: none;
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+}
+
+form {
+    margin-top: 64px;
+}
+
+form > a {
+    color: var(--Text-Tertiary, #74817F);
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 32px;
+    text-align: right;
+    text-decoration: none;
+}
+
+form > label > input,
+form > label > div > input  {
+    border: 1px solid var(--Gray-20, #DDE9E6);
+    border-radius: 16px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 8px 0 16px 0;
+    min-height: 40px;
+    padding: 8px 16px 8px 16px;
+    text-align: left;
+    width: 100%;
+}
+
+.loginflex {
+    display: flex;
+    height: 100svh;
+}
+
+.loginflex > img {
+    height: 100%;
+    width: auto;
+}
+
+.pwdiv {
+    position: relative;
+}
+
+.pwdiv > svg {
+    position: absolute;
+    right: 15px;
+    top: 25px;
+}
+
+.verticalflex {
+    align-items: center;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 64px 32px;
+    width: 448px;
+}
+
+.verticalflex > div {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.verticalflex > div > h1 {
+    padding: 8px;
+    text-align: center;
+}
+
+.verticalflex > div > p {
+    text-align: center;
+}
